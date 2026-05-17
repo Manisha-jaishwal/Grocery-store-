@@ -1,30 +1,14 @@
 # Grocery Ordering App
 
 ## Description
-This is a simple grocery ordering web application built using React. Users can browse products, filter by category, add items to the cart, and place an order.
+This is a simple grocery ordering web application built using React.
 
 ## Features
-- Product listing with category filter
-- Add to cart with quantity management
-- Increase/decrease/remove items from cart
-- Order summary with subtotal, delivery charge (₹40), and total
-- Out of stock items are disabled
-- Place order clears cart and shows confirmation message
+- Product listing
+- Category filter
+- Cart management
+- Order summary
 
-## Tech Stack
-- React
-- JavaScript
-- CSS
-
-## How to Run Locally
-1. Clone the repository
-2. Run npm install
-3. Run npm run dev
-
-## Project Structure
-- Components: ProductList, Cart, OrderSummary
-- Data stored in products.js
-- State managed in App.jsx
-
-## Reasoning
-Component-based structure is used for better readability and maintainability. Cart state is managed centrally to ensure consistent updates.
+## How to run
+npm install  
+npm run dev
